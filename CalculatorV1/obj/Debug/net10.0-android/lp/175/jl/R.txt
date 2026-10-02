@@ -1,0 +1,1 @@
+int id sentry_privacy 0x0
