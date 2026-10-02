@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "o+FN6Kd3loI=",
+  "dgSpecHash": "4wwAPaWqONk=",
   "success": true,
   "projectFilePath": "C:\\Users\\LiuMi\\source\\repos\\BackUp\\CalculatorV1\\CalculatorV1.csproj",
   "expectedPackageFiles": [
@@ -49,6 +49,7 @@
     "C:\\Users\\LiuMi\\.nuget\\packages\\microsoft.windowsappsdk.runtime\\1.8.260529003\\microsoft.windowsappsdk.runtime.1.8.260529003.nupkg.sha512",
     "C:\\Users\\LiuMi\\.nuget\\packages\\microsoft.windowsappsdk.widgets\\1.8.251231004\\microsoft.windowsappsdk.widgets.1.8.251231004.nupkg.sha512",
     "C:\\Users\\LiuMi\\.nuget\\packages\\microsoft.windowsappsdk.winui\\1.8.260528001\\microsoft.windowsappsdk.winui.1.8.260528001.nupkg.sha512",
+    "C:\\Users\\LiuMi\\.nuget\\packages\\octokit\\14.0.0\\octokit.14.0.0.nupkg.sha512",
     "C:\\Users\\LiuMi\\.nuget\\packages\\sentry\\6.11.0\\sentry.6.11.0.nupkg.sha512",
     "C:\\Users\\LiuMi\\.nuget\\packages\\sentry.android.assemblyreader\\6.11.0\\sentry.android.assemblyreader.6.11.0.nupkg.sha512",
     "C:\\Users\\LiuMi\\.nuget\\packages\\sentry.bindings.android\\6.11.0\\sentry.bindings.android.6.11.0.nupkg.sha512",

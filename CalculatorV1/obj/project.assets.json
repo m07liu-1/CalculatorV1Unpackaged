@@ -637,6 +637,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Sentry/6.11.0": {
         "type": "package",
         "dependencies": {
@@ -3430,6 +3443,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Sentry/6.11.0": {
@@ -6227,6 +6253,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Sentry/6.11.0": {
         "type": "package",
         "dependencies": {
@@ -9020,6 +9059,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Sentry/6.11.0": {
@@ -11817,6 +11869,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Sentry/6.11.0": {
         "type": "package",
         "dependencies": {
@@ -14612,6 +14677,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Sentry/6.11.0": {
         "type": "package",
         "dependencies": {
@@ -17365,6 +17443,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Sentry/6.11.0": {
         "type": "package",
         "dependencies": {
@@ -18046,6 +18137,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Sentry/6.11.0": {
@@ -18731,6 +18835,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Sentry/6.11.0": {
         "type": "package",
         "dependencies": {
@@ -19412,6 +19529,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Sentry/6.11.0": {
@@ -20097,6 +20227,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Sentry/6.11.0": {
         "type": "package",
         "dependencies": {
@@ -20778,6 +20921,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Sentry/6.11.0": {
@@ -21463,6 +21619,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Sentry/6.11.0": {
         "type": "package",
         "dependencies": {
@@ -22144,6 +22313,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Sentry/6.11.0": {
@@ -22829,6 +23011,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Sentry/6.11.0": {
         "type": "package",
         "dependencies": {
@@ -23510,6 +23705,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Sentry/6.11.0": {
@@ -24195,6 +24403,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Sentry/6.11.0": {
         "type": "package",
         "dependencies": {
@@ -24876,6 +25097,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Sentry/6.11.0": {
@@ -25956,6 +26190,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.WinUI.targets": {}
         }
       },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Sentry/6.11.0": {
         "type": "package",
         "compile": {
@@ -26967,6 +27214,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.WinUI.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.WinUI.targets": {}
+        }
+      },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Sentry/6.11.0": {
@@ -27982,6 +28242,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.WinUI.targets": {}
         }
       },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Sentry/6.11.0": {
         "type": "package",
         "compile": {
@@ -28995,6 +29268,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.WinUI.targets": {}
         }
       },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Sentry/6.11.0": {
         "type": "package",
         "compile": {
@@ -30006,6 +30292,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.WinUI.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.WinUI.targets": {}
+        }
+      },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Sentry/6.11.0": {
@@ -31029,6 +31328,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.WinUI.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.WinUI.targets": {}
+        }
+      },
+      "Octokit/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Sentry/6.11.0": {
@@ -34473,6 +34785,20 @@
         "tools/x86/GenXbf.dll"
       ]
     },
+    "Octokit/14.0.0": {
+      "sha512": "jGOuTH1l+TCpJH+fwYOp7USzHDuGfN1jKbLz3J2COwyn+wL08eynvpnM6rY2qkzIEXum3PN2p2QkP3BW/p9Qcw==",
+      "type": "package",
+      "path": "octokit/14.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Octokit.dll",
+        "lib/netstandard2.0/Octokit.xml",
+        "octokit.14.0.0.nupkg.sha512",
+        "octokit.nuspec",
+        "octokit.png"
+      ]
+    },
     "Sentry/6.11.0": {
       "sha512": "TsT5Gj77PTh3lHQGS+8dLxucTmiZEfLxkqRygIHwYQXRXmMC4fFDbf1AoQe8LXOOFDYhPM2SNf8TTfexvkP0nQ==",
       "type": "package",
@@ -37160,23 +37486,27 @@
       "Microsoft.Extensions.Logging.Debug >= 10.0.12",
       "Microsoft.Maui.Controls >= 10.0.101",
       "Microsoft.NET.ILLink.Tasks >= 10.0.12",
+      "Octokit >= 14.0.0",
       "Sentry.Maui.CommunityToolkit.Mvvm >= 6.11.0"
     ],
     "net10.0-ios": [
       "Microsoft.Extensions.Logging.Debug >= 10.0.12",
       "Microsoft.Maui.Controls >= 10.0.101",
       "Microsoft.NET.ILLink.Tasks >= 10.0.12",
+      "Octokit >= 14.0.0",
       "Sentry.Maui.CommunityToolkit.Mvvm >= 6.11.0"
     ],
     "net10.0-maccatalyst": [
       "Microsoft.Extensions.Logging.Debug >= 10.0.12",
       "Microsoft.Maui.Controls >= 10.0.101",
       "Microsoft.NET.ILLink.Tasks >= 10.0.12",
+      "Octokit >= 14.0.0",
       "Sentry.Maui.CommunityToolkit.Mvvm >= 6.11.0"
     ],
     "net10.0-windows10.0.19041.0": [
       "Microsoft.Extensions.Logging.Debug >= 10.0.12",
       "Microsoft.Maui.Controls >= 10.0.101",
+      "Octokit >= 14.0.0",
       "Sentry.Maui.CommunityToolkit.Mvvm >= 6.11.0"
     ]
   },
@@ -37265,6 +37595,10 @@
             "target": "Package",
             "version": "[10.0.12, )",
             "autoReferenced": true
+          },
+          "Octokit": {
+            "target": "Package",
+            "version": "[14.0.0, )"
           },
           "Sentry.Maui.CommunityToolkit.Mvvm": {
             "target": "Package",
@@ -37587,6 +37921,10 @@
             "version": "[10.0.12, )",
             "autoReferenced": true
           },
+          "Octokit": {
+            "target": "Package",
+            "version": "[14.0.0, )"
+          },
           "Sentry.Maui.CommunityToolkit.Mvvm": {
             "target": "Package",
             "version": "[6.11.0, )"
@@ -37908,6 +38246,10 @@
             "version": "[10.0.12, )",
             "autoReferenced": true
           },
+          "Octokit": {
+            "target": "Package",
+            "version": "[14.0.0, )"
+          },
           "Sentry.Maui.CommunityToolkit.Mvvm": {
             "target": "Package",
             "version": "[6.11.0, )"
@@ -38223,6 +38565,10 @@
           "Microsoft.Maui.Controls": {
             "target": "Package",
             "version": "[10.0.101, )"
+          },
+          "Octokit": {
+            "target": "Package",
+            "version": "[14.0.0, )"
           },
           "Sentry.Maui.CommunityToolkit.Mvvm": {
             "target": "Package",

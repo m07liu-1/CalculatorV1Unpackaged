@@ -554,3 +554,5 @@ C:\Users\LiuMi\source\repos\BackUp\CalculatorV1\obj\Debug\net10.0-windows10.0.19
 C:\Users\LiuMi\source\repos\BackUp\CalculatorV1\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt
 C:\Users\LiuMi\source\repos\BackUp\CalculatorV1\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
 C:\Users\LiuMi\source\repos\BackUp\CalculatorV1\obj\Debug\net10.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\LiuMi\source\repos\BackUp\CalculatorV1\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Octokit.dll
+C:\Users\LiuMi\source\repos\BackUp\CalculatorV1\obj\Debug\net10.0-windows10.0.19041.0\win-x64\CalculatorV1.sourcelink.json
