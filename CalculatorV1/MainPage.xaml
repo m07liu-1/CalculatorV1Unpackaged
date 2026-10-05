@@ -26,8 +26,8 @@
                         <Picker.ItemsSource >
                             <x:Array Type="{x:Type x:String}">
                                 <x:String>Calculator</x:String>
-                                <x:String>TabTwo</x:String>
-                                <x:String>LevelNotes</x:String>
+                                <x:String>TabTwo(updated)</x:String>
+                                <x:String>LevelNotes(updated)</x:String>
                                 <x:String>FinalReview</x:String>
                             </x:Array>
                         </Picker.ItemsSource>

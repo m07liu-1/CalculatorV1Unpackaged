@@ -3,7 +3,7 @@ namespace CalculatorV1.Tabs;
 public partial class TabTwo : ContentPage {
     public TabTwo()
     {
-        this.InitializeComponent();
+        InitializeComponent();
     }
 
     private void transferData(Object sender, EventArgs e)
