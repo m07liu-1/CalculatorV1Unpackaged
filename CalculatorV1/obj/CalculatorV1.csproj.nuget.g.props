@@ -48,6 +48,7 @@
     <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk.dwrite\1.8.25122902\buildTransitive\Microsoft.WindowsAppSDK.DWrite.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk.dwrite\1.8.25122902\buildTransitive\Microsoft.WindowsAppSDK.DWrite.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk.ai\1.8.76\buildTransitive\Microsoft.WindowsAppSDK.AI.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk.ai\1.8.76\buildTransitive\Microsoft.WindowsAppSDK.AI.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk\1.8.260529003\buildTransitive\Microsoft.WindowsAppSDK.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk\1.8.260529003\buildTransitive\Microsoft.WindowsAppSDK.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.illink.tasks\10.0.12\build\Microsoft.NET.ILLink.Tasks.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.tasks\10.0.12\build\Microsoft.NET.ILLink.Tasks.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.maui.resizetizer\10.0.101\buildTransitive\Microsoft.Maui.Resizetizer.props" Condition="Exists('$(NuGetPackageRoot)microsoft.maui.resizetizer\10.0.101\buildTransitive\Microsoft.Maui.Resizetizer.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.graphics.win2d\1.4.0\buildTransitive\net6.0-windows10.0.19041.0\Microsoft.Graphics.Win2D.props" Condition="Exists('$(NuGetPackageRoot)microsoft.graphics.win2d\1.4.0\buildTransitive\net6.0-windows10.0.19041.0\Microsoft.Graphics.Win2D.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.maui.core\10.0.101\buildTransitive\net10.0-windows10.0.17763.0\Microsoft.Maui.Core.props" Condition="Exists('$(NuGetPackageRoot)microsoft.maui.core\10.0.101\buildTransitive\net10.0-windows10.0.17763.0\Microsoft.Maui.Core.props')" />
@@ -71,5 +72,6 @@
     <PkgMicrosoft_Web_WebView2 Condition=" '$(PkgMicrosoft_Web_WebView2)' == '' ">C:\Users\LiuMi\.nuget\packages\microsoft.web.webview2\1.0.3179.45</PkgMicrosoft_Web_WebView2>
     <PkgMicrosoft_WindowsAppSDK_WinUI Condition=" '$(PkgMicrosoft_WindowsAppSDK_WinUI)' == '' ">C:\Users\LiuMi\.nuget\packages\microsoft.windowsappsdk.winui\1.8.260528001</PkgMicrosoft_WindowsAppSDK_WinUI>
     <PkgMicrosoft_WindowsAppSDK_Runtime Condition=" '$(PkgMicrosoft_WindowsAppSDK_Runtime)' == '' ">C:\Users\LiuMi\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.260529003</PkgMicrosoft_WindowsAppSDK_Runtime>
+    <PkgMicrosoft_NET_ILLink_Tasks Condition=" '$(PkgMicrosoft_NET_ILLink_Tasks)' == '' ">C:\Users\LiuMi\.nuget\packages\microsoft.net.illink.tasks\10.0.12</PkgMicrosoft_NET_ILLink_Tasks>
   </PropertyGroup>
 </Project>
