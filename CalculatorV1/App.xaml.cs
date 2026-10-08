@@ -32,6 +32,7 @@ namespace CalculatorV1
         protected override async void OnStart()
         {
             base.OnStart();
+            await LaunchUpdate();
             await ScriptUpdate();
         }
 
@@ -53,45 +54,94 @@ namespace CalculatorV1
             }
         }
 
-        public async Task ScriptUpdate() {
-            var github = new GitHubClient(new ProductHeaderValue("CalculatorV1Unpackaged"));
-            var latestRelease = await github.Repository.Release.GetLatest("m07liu-1", "CalculatorV1Unpackaged");
-            var latestVersion = latestRelease.TagName;
-            var currentVersion = AppInfo.VersionString;
-            if (latestVersion != currentVersion)
+        public async Task ScriptUpdate()
+        {
+            // Removed early return check - downloads update on every check, not just if file exists
+            try
             {
-                var asset = latestRelease.Assets.FirstOrDefault(a => a.Name.EndsWith(".exe"));
-                string tempFilePath = Path.Combine(FileSystem.Current.CacheDirectory, "update.exe");
-                using (var client = new HttpClient())
+                var github = new GitHubClient(new ProductHeaderValue("CalculatorV1Unpackaged"));
+                var latestRelease = await github.Repository.Release.GetLatest("m07liu-1", "CalculatorV1Unpackaged");
+                var latestVersion = latestRelease.TagName;
+                var currentVersion = AppInfo.VersionString;
+
+                if (latestVersion != currentVersion)
                 {
-                    client.DefaultRequestHeaders.UserAgent.ParseAdd("CalculatorV1Unpackaged");
+                    var asset = latestRelease.Assets.FirstOrDefault(a => a.Name.EndsWith(".exe"));
                     if (asset != null)
                     {
-                        var data = await client.GetByteArrayAsync(asset.BrowserDownloadUrl);
-                        await File.WriteAllBytesAsync(tempFilePath, data);
-                        string batchPath = Path.Combine(FileSystem.Current.CacheDirectory, "update.bat");
-                        string currentExePath = Environment.ProcessPath;
-
-                        string batchContent = $@"
-                        @echo off
-                        timeout /t 2 /nobreak > nul
-                        copy /y ""{tempFilePath}"" ""{currentExePath}""
-                        start """" ""{currentExePath}""
-                        del ""%~f0""
-                        ";
-
-                        await File.WriteAllTextAsync(batchPath, batchContent);
-                        System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+                        string tempFilePath = Path.Combine(Path.GetDirectoryName(Environment.ProcessPath), "update.exe");
+                        
+                        using (var client = new HttpClient())
                         {
-                            FileName = batchPath,
-                            UseShellExecute = true,
-                            WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden,
-                            CreateNoWindow = true
-                        });
-                        Microsoft.Maui.Controls.Application.Current?.Quit();
+                            client.DefaultRequestHeaders.UserAgent.ParseAdd("CalculatorV1");
+                            
+                            var response = await client.GetAsync(asset.BrowserDownloadUrl);
+                            response.EnsureSuccessStatusCode();
+                            
+                            var data = await response.Content.ReadAsByteArrayAsync();
+                            await File.WriteAllBytesAsync(tempFilePath, data);
+                        }
                     }
                 }
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"Update check failed: {ex.Message}");
+            }
+        }
 
+        public async Task LaunchUpdate()
+        {
+            var update = Path.Combine(Path.GetDirectoryName(Environment.ProcessPath), "update.exe");
+            if (!File.Exists(update))
+            {
+                return;
+            }   
+            try
+            {
+                
+                // Get the executable name dynamically instead of hardcoding
+                string executableName = Path.GetFileName(System.Diagnostics.Process.GetCurrentProcess().MainModule?.FileName ?? "CalculatorV1.exe");
+                string batPath = Path.Combine(Path.GetTempPath(), "update_launcher.bat");
+                string targetExePath = Environment.ProcessPath;
+                
+                string batContent = $@"@echo off
+timeout /t 2 /nobreak
+taskkill /f /im {executableName} 2>nul
+timeout /t 1 /nobreak
+copy /y ""{update}"" ""{targetExePath}""
+start """" ""{targetExePath}""
+del ""{update}""
+";
+
+                await File.WriteAllTextAsync(batPath, batContent);
+
+                var psi = new System.Diagnostics.ProcessStartInfo
+                {
+                    FileName = "cmd.exe",
+                    Arguments = $"/c \"{batPath}\"",
+                    UseShellExecute = false,
+                    CreateNoWindow = true
+                };
+                
+                var process = System.Diagnostics.Process.Start(psi);
+                if (process != null)
+                {
+                    // Increased delay to allow batch script to acquire file locks
+                    await Task.Delay(1500);
+                }
+                else
+                {
+                    System.Diagnostics.Debug.WriteLine("Failed to start update process");
+                    return;
+                }
+                
+                App.Current?.Quit();
+            }
+            catch (Exception ex)
+            {
+                // Log the error instead of silently failing
+                System.Diagnostics.Debug.WriteLine($"Update launch failed: {ex.Message}");
             }
         }
     }
